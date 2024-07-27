@@ -20,7 +20,6 @@ const Background = () => {
         <div className="p-6 text-white text-xl">
           <p className="mb-4">
             I am a student studying computer and software engineering at the University of Rwanda. My hobbies include reading and listening to music. I am passionate about web development and app development.
-            I am working on personal development by reading books like "Can't Hurt Me" by David Goggins and learning guitar from various online resources.
             My goal is to become a full stack software engineer to solve the world's problems. I aim to write user-friendly code, especially for beginners.
             I have experience as a full-stack and mobile developer, as well as a UI designer. I am currently on holiday and fully committed to learning and enhancing my skills.
 
