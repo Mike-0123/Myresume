@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaJsSquare, FaNode, FaHtml5, FaCss3Alt, FaFigma, FaPaintBrush } from 'react-icons/fa';
-import Footer from './Footer';
+
 const skills = [
   { name: 'React JS', icon: FaReact },
   { name: 'Figma Designer', icon: FaFigma },
@@ -25,12 +25,12 @@ const Background = () => {
             I have experience as a full-stack and mobile developer, as well as a UI designer. I am currently on holiday and fully committed to learning and enhancing my skills.
 
           </p>
-         
+        
         
         </div>
 
         </div>
-        <div className="min-h-screen p-4 sm:p-8 text-white">
+        <div className="p-4 sm:p-8 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-2xl sm:text-3xl font-bold mb-8">My Skills</h1>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -47,9 +47,7 @@ const Background = () => {
         </div></div>
         
  
-    
 
-        <Footer/>
     </div>
    
       </>
