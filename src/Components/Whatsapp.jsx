@@ -4,9 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const WhatsAppButton = () => {
+    const message = encodeURIComponent("Hello, I want to discuss a project with you.");
+
   return (
     <a
-      href="https://wa.me/+250 782230807"  // Replace with your WhatsApp number
+    href={`https://wa.me/250782230807?text=${message}`}  // Replace with your Rwandan WhatsApp number
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 bg-green-500 p-3 rounded-full shadow-lg hover:bg-green-600"
