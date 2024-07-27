@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const WhatsAppButton = () => {
-    const message = encodeURIComponent("Hello, I want to discuss a project with you.");
+    const message = encodeURIComponent("Hello, I want.");
 
   return (
     <a
