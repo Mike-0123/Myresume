@@ -9,6 +9,7 @@ import Contact from "../Components/MapandForm";
 import Footer from "../Components/Footer";
 import Projects from "../Components/Project";
 import WhatsAppButton from "../Components/Whatsapp";
+import Experience from "../Components/Experience";
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
 <Navivgation/>
 <HelloSection/>
 <Background/>
+<Experience/>
 <Projects/>
 <Contact/>
 <Footer/>
